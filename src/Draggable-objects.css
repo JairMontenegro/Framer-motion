@@ -1,0 +1,29 @@
+.drag-objects-container{
+    display: flex; 
+    gap: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+.drag-objects-container p {
+text-align: center;
+font-size: 3vw;
+font-weight: bold;
+}
+
+.drag-objects-container .box{
+    margin-top: 30px;
+    height: 150px;
+    width: 150px;
+    background-color: brown;
+    border-radius: 20px;
+}
+
+.blue{
+    background-color: darkblue !important;
+}
+.orange{
+    background-color: darkorange !important;
+}
+.red{
+    background-color: darkred !important;
+}
