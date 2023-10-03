@@ -30,8 +30,7 @@ function App() {
         <DragObject/>
         <HoverOrClick/>
         <ScrollAnimationTrigger/>
-
-       
+        
         
 
 

@@ -1,15 +1,25 @@
 import Card from "./Card";
-import desktopDeepEarth from '../images/desktop/image-deep-earth.jpg'
+import desktopDeepEart from "../images/desktop/image-deep-earth.jpg"; 
+import mobileDeepEart from "../images/mobile/image-deep-earth.jpg"
+
 
 function ScrollAnimationTrigger() {
   return (
-    <div>
-            <section className='cards'>
-            
-        
 
+            <section className='cards'>
+              <Card 
+                cardName="Deep Earth"
+                srcset={mobileDeepEart}
+                src={desktopDeepEart}
+                alt="Deep Earth"
+              />
+              <Card 
+                cardName="Deep Earth"
+                srcset={mobileDeepEart}
+                src={desktopDeepEart}
+                alt="Deep Earth"
+              />
             </section>
-    </div>
   )
 }
 
