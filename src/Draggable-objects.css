@@ -3,11 +3,14 @@
     gap: 50px;
     text-align: center;
     margin-top: 20px;
-}
+} 
+
 .drag-objects-container p {
-text-align: center;
-font-size: 3vw;
-font-weight: bold;
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
 }
 
 .drag-objects-container .box{

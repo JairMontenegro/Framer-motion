@@ -6,4 +6,5 @@
     left: 0;    
     height: 10px;
     transform-origin: 0%;
+    z-index: 1;
 }

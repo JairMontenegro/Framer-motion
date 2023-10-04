@@ -36,7 +36,7 @@ function ScrollAnimationTrigger() {
                 alt="Night Arcade"
               />
               <Card 
-                cardName="Soccer Team Team VR"
+                cardName="Soccer Team VR"
                 srcset={mobileSoccerTeam}
                 src={desktopSoccerTeam}
                 alt="Soccer Team Team VR"
