@@ -7,12 +7,12 @@ interface Props {
   cardName: string;
 }
 
-const Card: React.FC<Props> = ({ srcset, src, alt, cardName }) => {
+const Card: React.FC<Props> = ({ srcset, src , alt, cardName }) => {
   return (
     <div>
-      <p>{cardName}</p>
       <picture>
-        <source media="(max-width: 375px)" srcSet={srcset} />
+      <p>{cardName}</p>
+        <source media="(max-width: 375px)" srcSet={srcset}/>
         <img src={src} alt={alt} />
       </picture>
     </div>
