@@ -1,5 +1,5 @@
 import {motion, useScroll} from 'framer-motion';
-import './Scroll-animation.css'
+import '../css/Scroll-animation.css'
 
 
 function ScrollAnimation() {

@@ -1,4 +1,4 @@
-import './Draggable-objects.css'
+import '../css/Draggable-objects.css'
 import {motion} from 'framer-motion'
 
 

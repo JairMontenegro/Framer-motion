@@ -1,4 +1,4 @@
-import './Framer-Animation.css'
+import '../css/Framer-Animation.css'
 import {motion, AnimatePresence } from 'framer-motion';
 import {useState} from 'react';
 

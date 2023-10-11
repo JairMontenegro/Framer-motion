@@ -1,4 +1,4 @@
-import './Hover-or-click.css'
+import '../css/Hover-or-click.css'
 import { useState } from 'react' 
 import{motion} from 'framer-motion'
 

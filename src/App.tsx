@@ -1,10 +1,10 @@
 import './App.css'
 import {motion} from 'framer-motion'
-import FramerAnimation from './Framer-Animation'
-import DragObject from './Draggable-objects'
-import HoverOrClick from './Hover-or-click'
-import ScrollAnimation from './Scroll-animation'
-import ScrollAnimationTrigger from './Scroll-animation-trigger'
+import FramerAnimation from './components/Framer-Animation'
+import DragObject from './components/Draggable-objects'
+import HoverOrClick from './components/Hover-or-click'
+import ScrollAnimation from './components/Scroll-animation'
+import ScrollAnimationTrigger from './components/Scroll-animation-trigger'
 
 
 function App() {
